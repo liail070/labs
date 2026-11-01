@@ -15,7 +15,6 @@ Lab1_social_network/
 ├── uml/
 │   ├── social_network_classes.png
 │   └── social_network_classes.svg
-├── .gitignore
 ├── README.md
 └── main.py
 ```
