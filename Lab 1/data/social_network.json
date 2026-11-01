@@ -5,14 +5,14 @@
       "username": "alice",
       "email": "alice@example.com",
       "password_hash": "hash_alice",
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     },
     {
       "id": 2,
       "username": "bob",
       "email": "bob@example.com",
       "password_hash": "hash_bob",
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     }
   ],
   "profiles": [
@@ -36,13 +36,13 @@
       "id": 1,
       "author_id": 1,
       "text": "Обновлённая публикация о лабораторной работе.",
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     },
     {
       "id": 2,
       "author_id": 2,
       "text": "Сегодня разбираюсь с XML и JSON.",
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     }
   ],
   "comments": [
@@ -51,7 +51,7 @@
       "post_id": 1,
       "author_id": 2,
       "text": "Удачи с лабораторной!",
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     }
   ],
   "likes": [
@@ -59,7 +59,7 @@
       "id": 2,
       "post_id": 1,
       "user_id": 2,
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     }
   ],
   "friendships": [
@@ -76,7 +76,7 @@
       "sender_id": 1,
       "recipient_id": 2,
       "text": "Привет! Как продвигается проект?",
-      "sent_at": "2026-11-01T13:27:33"
+      "sent_at": "2026-11-01T14:40:33"
     }
   ],
   "conversations": [
@@ -111,7 +111,7 @@
       "user_id": 1,
       "text": "Bob оценил вашу публикацию",
       "is_read": false,
-      "created_at": "2026-11-01T13:27:33"
+      "created_at": "2026-11-01T14:40:33"
     }
   ],
   "media": [
