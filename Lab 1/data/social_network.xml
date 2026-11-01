@@ -6,14 +6,14 @@
       <username>alice</username>
       <email>alice@example.com</email>
       <password_hash>hash_alice</password_hash>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
     <entity>
       <id>2</id>
       <username>bob</username>
       <email>bob@example.com</email>
       <password_hash>hash_bob</password_hash>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
   </users>
   <profiles>
@@ -37,13 +37,13 @@
       <id>1</id>
       <author_id>1</author_id>
       <text>Обновлённая публикация о лабораторной работе.</text>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
     <entity>
       <id>2</id>
       <author_id>2</author_id>
       <text>Сегодня разбираюсь с XML и JSON.</text>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
   </posts>
   <comments>
@@ -52,7 +52,7 @@
       <post_id>1</post_id>
       <author_id>2</author_id>
       <text>Удачи с лабораторной!</text>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
   </comments>
   <likes>
@@ -60,7 +60,7 @@
       <id>2</id>
       <post_id>1</post_id>
       <user_id>2</user_id>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
   </likes>
   <friendships>
@@ -77,7 +77,7 @@
       <sender_id>1</sender_id>
       <recipient_id>2</recipient_id>
       <text>Привет! Как продвигается проект?</text>
-      <sent_at>2026-11-01T13:27:33</sent_at>
+      <sent_at>2026-11-01T14:40:33</sent_at>
     </entity>
   </messages>
   <conversations>
@@ -112,7 +112,7 @@
       <user_id>1</user_id>
       <text>Bob оценил вашу публикацию</text>
       <is_read>False</is_read>
-      <created_at>2026-11-01T13:27:33</created_at>
+      <created_at>2026-11-01T14:40:33</created_at>
     </entity>
   </notifications>
   <media>
