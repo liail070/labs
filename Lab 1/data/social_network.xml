@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<social_network>
+  <users>
+    <entity>
+      <id>1</id>
+      <username>alice</username>
+      <email>alice@example.com</email>
+      <password_hash>hash_alice</password_hash>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+    <entity>
+      <id>2</id>
+      <username>bob</username>
+      <email>bob@example.com</email>
+      <password_hash>hash_bob</password_hash>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+  </users>
+  <profiles>
+    <entity>
+      <id>1</id>
+      <user_id>1</user_id>
+      <display_name>Alice</display_name>
+      <bio>Разрабатываю учебные проекты на Python</bio>
+      <avatar_url />
+    </entity>
+    <entity>
+      <id>2</id>
+      <user_id>2</user_id>
+      <display_name>Bob</display_name>
+      <bio>Интересуюсь фото и технологиями</bio>
+      <avatar_url />
+    </entity>
+  </profiles>
+  <posts>
+    <entity>
+      <id>1</id>
+      <author_id>1</author_id>
+      <text>Обновлённая публикация о лабораторной работе.</text>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+    <entity>
+      <id>2</id>
+      <author_id>2</author_id>
+      <text>Сегодня разбираюсь с XML и JSON.</text>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+  </posts>
+  <comments>
+    <entity>
+      <id>1</id>
+      <post_id>1</post_id>
+      <author_id>2</author_id>
+      <text>Удачи с лабораторной!</text>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+  </comments>
+  <likes>
+    <entity>
+      <id>2</id>
+      <post_id>1</post_id>
+      <user_id>2</user_id>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+  </likes>
+  <friendships>
+    <entity>
+      <id>1</id>
+      <user_id>1</user_id>
+      <friend_id>2</friend_id>
+      <status>accepted</status>
+    </entity>
+  </friendships>
+  <messages>
+    <entity>
+      <id>1</id>
+      <sender_id>1</sender_id>
+      <recipient_id>2</recipient_id>
+      <text>Привет! Как продвигается проект?</text>
+      <sent_at>2026-11-01T13:27:33</sent_at>
+    </entity>
+  </messages>
+  <conversations>
+    <entity>
+      <id>1</id>
+      <title>Обсуждение проекта</title>
+      <participant_ids>
+        <item>1</item>
+        <item>2</item>
+      </participant_ids>
+    </entity>
+  </conversations>
+  <groups>
+    <entity>
+      <id>1</id>
+      <name>Python Lab</name>
+      <description>Учебная группа по Python</description>
+      <owner_id>1</owner_id>
+    </entity>
+  </groups>
+  <memberships>
+    <entity>
+      <id>1</id>
+      <group_id>1</group_id>
+      <user_id>2</user_id>
+      <role>member</role>
+    </entity>
+  </memberships>
+  <notifications>
+    <entity>
+      <id>1</id>
+      <user_id>1</user_id>
+      <text>Bob оценил вашу публикацию</text>
+      <is_read>False</is_read>
+      <created_at>2026-11-01T13:27:33</created_at>
+    </entity>
+  </notifications>
+  <media>
+    <entity>
+      <id>1</id>
+      <owner_id>1</owner_id>
+      <file_name>project.png</file_name>
+      <media_type>image</media_type>
+    </entity>
+  </media>
+  <hashtags>
+    <entity>
+      <id>1</id>
+      <name>python</name>
+    </entity>
+  </hashtags>
+  <feeds>
+    <entity>
+      <id>1</id>
+      <user_id>1</user_id>
+      <post_ids>
+        <item>1</item>
+        <item>2</item>
+      </post_ids>
+    </entity>
+  </feeds>
+</social_network>
