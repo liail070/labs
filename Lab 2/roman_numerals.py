@@ -8,9 +8,6 @@ from urllib.parse import urlparse
 import requests
 
 
-# Каноническая запись целых чисел от I (1) до MMMCMXCIX (3999).
-# Тысячи: M{0,3}; сотни, десятки и единицы задаются отдельными группами,
-# чтобы исключить некорректные формы вроде IIII, IC и VX.
 ROMAN_NUMBER_PATTERN = (
     r"M{0,3}"
     r"(?:CM|CD|D?C{0,3})"
@@ -61,6 +58,5 @@ def fetch_url(url: str, timeout: int = 10) -> str:
         headers={"User-Agent": "RomanNumeralLab/1.0"},
     )
     response.raise_for_status()
-    # requests автоматически определяет кодировку из заголовков/содержимого.
     response.encoding = response.encoding or response.apparent_encoding
     return response.text
